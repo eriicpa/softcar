@@ -1,0 +1,251 @@
+/* Layout*/
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+
+/* NavBar */
+
+#navprincipal {
+	padding: 35px;
+	background-color: #252525;
+}
+
+#navprincipal ul li a {
+	color: #FFF;
+	font-weight: bolder;
+}
+
+#navprincipal ul li a:hover {
+	color: #108a51;
+	font-weight: bolder;
+}
+
+
+nav form {
+	margin-left: 25px;
+}
+
+
+.icon a{
+	padding: 0 10px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.btn-pesquisa {
+	background-color:  #108a51;
+	color: #FFF;
+}
+
+/* Fim NavBar */
+
+
+/* Menu Verde */
+
+.menu2{
+	padding: 10px 5px 8px 5px;
+	background-color: #108a51;
+	margin-bottom: 20px;
+  }
+
+.menu2 a img{
+	margin-left: 35px;
+  }
+
+  .menu2 a p{
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	}
+	
+	.menu2 a {
+		text-decoration: none;
+	}
+
+	.menu2 a p:hover {
+		color: #0d361c;
+	}
+
+
+/*Fim Menu Verde */
+
+
+/* Menu Lateral */
+.filtro{
+	padding: 20px;
+	background-color: #252525;
+	border-top: 3px solid #108a51;
+  }
+  
+.opcao {
+	margin-top: 15px;
+  }
+  
+.verde{
+	background-color: #108a51;
+	padding: 24px;
+	}
+	
+	.locad {
+		margin-top: 40px;
+	}
+/*Fim Menu Lateral */
+
+
+
+
+
+/* Menu Marcas */
+
+  .navmarcas {
+	background-color: #999999;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+  }
+  
+/* Fim Menu Marcas */
+
+
+/* Produtos */
+  .produtos {
+	margin-top: 20px;
+  }
+
+
+  .produtos a {
+	  text-decoration: none;
+	  color: #000;
+  }
+
+  .produtos .lprod:hover {
+	text-decoration: none;
+	color: #108a51;
+}
+
+.pagelink {
+	color: #108a51;
+	border: 1px solid red;
+}
+
+/* Fim Produtos */
+
+
+
+
+/* Rodapé */
+
+.rodape {
+	background-color: #108a51;
+}
+
+.rtext p {
+	color: #FFF;
+	font-weight: bold;
+}
+
+.rtext2 p {
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+.social a img {
+	margin-left: 30px;
+
+}
+
+/* Fim Rodapé */
+
+
+/* Formulario pag login */
+.formulario {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.164);
+	margin: 0 auto;
+	color: white;
+	margin-top: 49px;
+	margin-left: 20px;
+	margin-right: 20px;
+  }
+
+ 
+ 
+ .fundo {
+   background-image: url("../imagens/fundologin.jpg");
+   height: 500px;
+ }
+
+ .btnCadastro {
+	 margin-top: 180px;
+	 color: white;
+	 font-weight: bolder;
+	 text-transform: uppercase;
+ }
+
+ .btnCadastro h2::after {
+    content: "";
+    display: block;
+    width: 350px;
+    height: 3px;
+	background-color: #108a51;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.oplogin p{
+	margin-top: 10px;
+}
+.oplogin a img{
+	padding-right: 10px;
+}
+
+/* Form Cadastro */
+.fundocad {
+	background-image: url("../imagens/fundologin.jpg");
+	background-size: cover;
+	height: 670px;
+  }
+
+.btnCadastro2 {
+	margin-top: 200px;
+	color: white;
+	font-weight: bolder;
+}
+
+.btnCadastro2 .line::after {
+    content: "";
+    display: block;
+    width: 350px;
+    height: 3px;
+	background-color: #108a51;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.linklogin a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.linklogin a:hover {
+	text-decoration: none;
+	color: #108a51;
+}
+
+
+
+
+
+
+
+

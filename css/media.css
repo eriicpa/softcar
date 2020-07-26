@@ -1,0 +1,91 @@
+/* Media Querry */
+
+@media (max-width: 800px) {
+	
+	.menu2 {
+		margin-top: 25px;
+	}
+	.rtext p {
+		color: #FFF;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.social {
+		margin-top: 20px;
+		text-align: center;
+	}
+	
+
+	.pos {
+		margin-top: 20px;
+		margin-left: 100px;
+	}
+
+
+	.btnCadastro {
+		margin-top: 20px;
+		color: white;
+		font-weight: bold;
+	}
+
+	.btnCadastro2 {
+		margin-top: 20px;
+		color: white;
+		font-weight: bolder;
+	}
+
+	.fundo {
+		background-image: url("../imagens/fundologin.jpg");
+		height: 650px;
+		margin-bottom: 50px;
+	  }
+
+	  .fundocad {
+		background-image: url("../imagens/fundologin.jpg");
+		height: 900px;
+		margin-bottom: 50px;
+	  }
+
+	  .lateral {
+		  display: none;
+	  }
+
+	  .icon a{
+		margin-top: 300px;
+		padding: 0 10px;
+		text-decoration: none;
+	}
+
+	#navprincipal ul li a {
+		color: #FFF;
+		font-weight: bolder;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 1000px) { 
+	.lateral {
+		display: none;
+	}
+
+
+}
+
+@media (max-width: 1100px) { 
+	
+	#navprincipal ul li a {
+		color: #FFF;
+		font-weight: bolder;
+		font-size: 12px;
+	}
+
+	.icon a{
+		padding: 0 5px;
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+	}
+
+
+}
+	
